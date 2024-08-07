@@ -10,32 +10,85 @@ body {
 header {
     width: 100%;
     height: fit-content;
-    border: 1px solid red;
     box-sizing: border-box;
+    border: 1px solid red;
 }
 
 .container_de_datos {
     padding: 1rem;
+    margin: 0 80px;
 }
 .datos_textuales, .foto_de_perfil {
     display: inline-block;
     vertical-align: middle;
+    width: 49.8%;
 }
 
-.datos_textuales {
-    width: 70%;
-    margin-left: 80px;
-    margin-right: 120px;
+.foto_de_perfil {
+    text-align: right;
+}
+
+.datos_textuales h1, .datos_textuales p {
+    margin-left: 20px;
 }
 
 .foto_de_perfil img {
-    width: 120px;
-    border-radius: 50%;  
+    width: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
 }
 
 .frase_famosa {
     border: 1px solid blue;
-    margin-left: 80px;
+    margin: 0 80px;
     padding: 0.7rem;
+}
+
+main {
+    margin: 0 80px;
+    border: 1px solid green;
+}
+
+section {
+    margin: 16px 0;
+    padding: 1rem;
+}
+
+.about_me {
+    border: 1px solid orange;
+}
+
+.education {
+    border: 1px solid purple;
+}
+
+.skills {
+    border: 1px solid royalblue;
+}
+
+.experience {
+    border: 1px solid saddlebrown;
+}
+
+.books {
+    border: 1px solid teal;
+}
+
+footer {
+    border: 1px solid red;
+    padding: 2rem;
+    text-align: center;
+}
+
+.redes li, li>img, li>p {
+    display: inline-block; 
+}
+
+li>img {
+    width: 40px;
+}
+
+li>img, li>p {
+    vertical-align: middle;
 }
 
