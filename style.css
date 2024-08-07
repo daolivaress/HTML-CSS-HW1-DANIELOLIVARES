@@ -10,11 +10,10 @@ body {
 
 header {
     width: 100%;
-    height: fit-content;
     box-sizing: border-box;
     background-image: url("/images/wp6402810-black-for-desktop-wallpapers.jpg");
     background-size: cover;
-    background-position: calc(50% - -280px) 20%;
+    background-position: calc(50% - -50px) 17%;
     color: #fff;
     border-bottom: 10px solid #f7c82e;
     box-shadow: 0px 10px 1px 0px rgba(0,0,0,0.12);
@@ -47,12 +46,13 @@ header {
 
 .foto_de_perfil img {
     width: 200px;
+    border: 3px solid #f7c82e;
     border-radius: 50%;
     box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.5);
 }
 
 .frase_famosa {
-    margin: 0 80px 12px;
+    margin: -20px 80px 12px;
     padding: 1.5rem 1rem;
 }
 
@@ -66,8 +66,8 @@ section {
     background-color: #ffffffc0;
     backdrop-filter: blur(2.5px);
     border: 3px solid black; 
-    border-radius: 10px; 
-    box-shadow: 6px 8px 6px rgba(0, 0, 0, 0.3); /* Ajusta según sea necesario */
+    border-radius: 20px; 
+    box-shadow: 6px 8px 6px rgba(0, 0, 0, 0.3);
 }
 
 section .title>img, section .title>h2 {
@@ -78,7 +78,7 @@ section .title>img, section .title>h2 {
 section .title>h2 {
     width: 30%;
     padding-left: 8px;
-    padding-bottom: 6px;
+    padding-bottom: 8px;
     border-bottom: 2px solid black;
 }
 
@@ -87,29 +87,64 @@ section .title>img {
     margin-right: 10px;
 }
 
-section p {
+section .text {
     margin: 6px 70px;
 }
 
-.about_me {
+.school_list {
+    list-style-type: none;
+}
+
+.school {
+    margin: 1rem 0;
 
 }
 
-
-.education {
- 
+.skill {
+    margin: 1rem 0;
 }
 
-.skills {
-   
+.skill>h3, .skill>.rate {
+    display: inline-block;
+    vertical-align: middle;
 }
 
-.experience {
-
+.skill>h3 {
+    font-size: 20px;
 }
 
-.books {
+.skill .rate {
+    margin-left: 8px;
 }
+
+.rate img{
+    width: 24px;
+}
+
+.experience_list {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.project {
+    margin: 20px 0;
+    text-decoration: none;
+    color: #000;
+    width: 920px;
+}
+
+.project:hover {
+    background-color: #000000;
+    border: 4px solid #f7c82e;
+    color: #fff;
+    padding: 1.3rem;
+    border-radius: 20px;
+    box-shadow: -6px 8px 6px rgba(0, 0, 0, 0.2); 
+}
+
 
 footer {
     background-color: #000;
@@ -124,7 +159,7 @@ footer {
     margin-top: 18px;
 }
 
-.redes li, li>img, li>p {
+.redes li, .redes li>img, .redes li>p {
     display: inline-block; 
 }
 
@@ -132,11 +167,11 @@ footer {
     margin: 0 10px;
 }
 
-li>img {
+.redes li>img {
     width: 35px;
 }
 
-li>img, li>p {
+.redes li>img, .redes li>p {
     vertical-align: middle;
 }
 
