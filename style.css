@@ -5,6 +5,7 @@
 
 body {
     font-family: "Montserrat", sans-serif;
+    background-image: url("https://motionbgs.com/i/c/364x205/media/3363/white-topography.jpg");
 }
 
 header {
@@ -23,6 +24,7 @@ header {
     padding: 1rem;
     margin: 0 80px;
 }
+
 .datos_textuales, .foto_de_perfil {
     display: inline-block;
     vertical-align: middle;
@@ -32,6 +34,7 @@ header {
 
 .foto_de_perfil {
     text-align: right;
+    margin-top: 10px;
 }
 
 .datos_textuales h1 {
@@ -49,7 +52,7 @@ header {
 }
 
 .frase_famosa {
-    margin: 0 80px;
+    margin: 0 80px 12px;
     padding: 1.5rem 1rem;
 }
 
@@ -60,6 +63,11 @@ main {
 section {
     margin: 16px 0;
     padding: 1rem;
+    background-color: #ffffffc0;
+    backdrop-filter: blur(2.5px);
+    border: 3px solid black; 
+    border-radius: 10px; 
+    box-shadow: 6px 8px 6px rgba(0, 0, 0, 0.3); /* Ajusta según sea necesario */
 }
 
 section .title>img, section .title>h2 {
@@ -84,23 +92,23 @@ section p {
 }
 
 .about_me {
-    border: 1px solid orange;
+
 }
 
+
 .education {
-    border: 1px solid purple;
+ 
 }
 
 .skills {
-    border: 1px solid royalblue;
+   
 }
 
 .experience {
-    border: 1px solid saddlebrown;
+
 }
 
 .books {
-    border: 1px solid teal;
 }
 
 footer {
