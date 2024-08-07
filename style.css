@@ -76,7 +76,7 @@ section .title>img, section .title>h2 {
 }
 
 section .title>h2 {
-    width: 30%;
+    width: 40%;
     padding-left: 8px;
     padding-bottom: 8px;
     border-bottom: 2px solid black;
@@ -150,7 +150,7 @@ a:visited {
 }
 
 .books>.text {
-    margin-top: 12px;
+    margin: 1rem 70px;
 }
 
 .book {
