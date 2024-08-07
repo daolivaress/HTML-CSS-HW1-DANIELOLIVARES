@@ -4,14 +4,19 @@
 }
 
 body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 header {
     width: 100%;
     height: fit-content;
     box-sizing: border-box;
-    border: 1px solid red;
+    background-image: url("/images/wp6402810-black-for-desktop-wallpapers.jpg");
+    background-size: cover;
+    background-position: calc(50% - -280px) 20%;
+    color: #fff;
+    border-bottom: 10px solid #f7c82e;
+    box-shadow: 0px 10px 1px 0px rgba(0,0,0,0.12);
 }
 
 .container_de_datos {
@@ -22,36 +27,60 @@ header {
     display: inline-block;
     vertical-align: middle;
     width: 49.8%;
+    
 }
 
 .foto_de_perfil {
     text-align: right;
 }
 
-.datos_textuales h1, .datos_textuales p {
-    margin-left: 20px;
+.datos_textuales h1 {
+    margin-bottom: 4px;
+}
+
+.datos_textuales p {
+    margin-bottom: 8px;
 }
 
 .foto_de_perfil img {
-    width: 150px;
+    width: 200px;
     border-radius: 50%;
-    margin-right: 20px;
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.5);
 }
 
 .frase_famosa {
-    border: 1px solid blue;
     margin: 0 80px;
-    padding: 0.7rem;
+    padding: 1.5rem 1rem;
 }
 
 main {
-    margin: 0 80px;
-    border: 1px solid green;
+    margin: 50px 80px;
 }
 
 section {
     margin: 16px 0;
     padding: 1rem;
+}
+
+section .title>img, section .title>h2 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+section .title>h2 {
+    width: 30%;
+    padding-left: 8px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid black;
+}
+
+section .title>img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+section p {
+    margin: 6px 70px;
 }
 
 .about_me {
@@ -75,17 +104,28 @@ section {
 }
 
 footer {
-    border: 1px solid red;
-    padding: 2rem;
+    background-color: #000;
+    color: #fff;
+    padding: 4rem;
     text-align: center;
+    border-top: 10px solid #f7c82e;
+    box-shadow: 0px -10px 1px 0px rgba(0,0,0,0.12);
+}
+
+.redes {
+    margin-top: 18px;
 }
 
 .redes li, li>img, li>p {
     display: inline-block; 
 }
 
+.redes li {
+    margin: 0 10px;
+}
+
 li>img {
-    width: 40px;
+    width: 35px;
 }
 
 li>img, li>p {
